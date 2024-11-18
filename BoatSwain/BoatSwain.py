@@ -1,16 +1,16 @@
-﻿import dis
-from pydoc import cli
-import discord
+﻿import discord
 import os
 import json
 import time
 from discord.ext import commands
 from discord import app_commands, reaction
 import discord.interactions
-from dotenv import load_dotenv as ld
 
+# Load dotenv if it exists
+if os.path.exists("./BoatSwain/.env"):
+    from dotenv import load_dotenv as ld
+    ld()
 
-ld()
 DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
 
 class Client(commands.Bot):
@@ -23,7 +23,7 @@ class Client(commands.Bot):
     async def on_ready(self):
         print(f'Logged on as {self.user}')
         try:
-            with open('settings.json', 'r') as openfile:
+            with open('./BoatSwain/settings.json', 'r') as openfile:
                 await self.load_settings(openfile)
                 print("I ran correctly")
             self.tree.clear_commands(guild=None)
@@ -99,5 +99,5 @@ async def update_settings(client, settings):
     client.channel = settings["channel"]
     client.emoji = settings["emoji"]
 
- 
+
 client.run(DISCORD_TOKEN)

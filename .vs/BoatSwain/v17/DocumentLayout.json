@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\logan\\source\\repos\\2024\\Python\\BoatSwain\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F12313F2-4023-4B5F-A3B9-B4186DE354B7}|BoatSwain\\BoatSwain.pyproj|C:\\Users\\logan\\source\\repos\\2024\\Python\\BoatSwain\\BoatSwain\\BoatSwain.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F12313F2-4023-4B5F-A3B9-B4186DE354B7}|BoatSwain\\BoatSwain.pyproj|solutionrelative:BoatSwain\\BoatSwain.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12313F2-4023-4B5F-A3B9-B4186DE354B7}|BoatSwain\\BoatSwain.pyproj|C:\\Users\\logan\\source\\repos\\2024\\Python\\BoatSwain\\BoatSwain\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F12313F2-4023-4B5F-A3B9-B4186DE354B7}|BoatSwain\\BoatSwain.pyproj|solutionrelative:BoatSwain\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 246,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +27,31 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BoatSwain.py",
+              "DocumentMoniker": "C:\\Users\\logan\\source\\repos\\2024\\Python\\BoatSwain\\BoatSwain\\BoatSwain.py",
+              "RelativeDocumentMoniker": "BoatSwain\\BoatSwain.py",
+              "ToolTip": "C:\\Users\\logan\\source\\repos\\2024\\Python\\BoatSwain\\BoatSwain\\BoatSwain.py",
+              "RelativeToolTip": "BoatSwain\\BoatSwain.py",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-11-18T04:54:01.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": ".env",
+              "DocumentMoniker": "C:\\Users\\logan\\source\\repos\\2024\\Python\\BoatSwain\\BoatSwain\\.env",
+              "RelativeDocumentMoniker": "BoatSwain\\.env",
+              "ToolTip": "C:\\Users\\logan\\source\\repos\\2024\\Python\\BoatSwain\\BoatSwain\\.env",
+              "RelativeToolTip": "BoatSwain\\.env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-18T04:57:57.041Z"
             }
           ]
         },
